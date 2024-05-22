@@ -1,3 +1,7 @@
+# Air Installation
+1. Sessional
+2. Global
+
 ## Installing Air
 
 If you prefer using a script for Air installation, then this repository can help. You can use the installation script provided by Air by running the following command:
@@ -37,3 +41,33 @@ This will result in:
 ```
 
 Now you're ready to use Air for your projects.
+
+## To install Air globally, you can follow these steps:
+
+1. **Download the installation script** to a local file named `install_air.sh`:
+
+    ```bash
+    curl -sSfL https://raw.githubusercontent.com/cosmtrek/air/master/install.sh -o install_air.sh
+    ```
+
+2. **Execute the installation script**, placing the Air executable in `/usr/local/bin`:
+
+    ```bash
+    sudo sh install_air.sh -b /usr/local/bin
+    ```
+
+    This command will execute the script with elevated privileges (`sudo`) and install Air globally by placing the executable in `/usr/local/bin`, which is typically in the system's PATH.
+
+3. After following these steps, **Air should be installed globally** on your system, and you can verify the installation by running:
+
+    ```bash
+    air -v
+    ```
+
+    This should display the version information of Air if the installation was successful.
+
+
+
+
+
+
