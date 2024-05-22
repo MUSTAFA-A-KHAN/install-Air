@@ -2,7 +2,7 @@
 1. Sessional
 2. Global
 
-## Installing Air
+## Sessional Installation
 
 If you prefer using a script for Air installation, then this repository can help. You can use the installation script provided by Air by running the following command:
 
