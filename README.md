@@ -5,7 +5,7 @@ If you prefer using a script for Air installation, then this repository can help
 If you don't have curl installed 
 
 ```bash
-curl -sSfL https://raw.githubusercontent.com/cosmtrek/air/master/install.sh | sh -s
+sudo apt install curl
 ```
 
 Download the sh file
